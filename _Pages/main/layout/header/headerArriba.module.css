@@ -2,7 +2,8 @@
   display: flex;
   align-items: center;
   gap: 12px;
-  padding: 0 16px;
+  padding: 0 16px 0 0;
+  font-family: 'Leonardo Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   width: 100%;
   height: 64px;
   background-color: #0f1119;
@@ -16,67 +17,88 @@
 .brand {
   display: flex;
   align-items: center;
-  gap: 10px;
-  min-width: 220px;
-}
-
-.brandLogo {
-  width: 36px;
-  height: 36px;
-  border-radius: 6px;
-  overflow: hidden;
-  background-color: #c0392b;
-  display: flex;
-  align-items: center;
   justify-content: center;
-  flex-shrink: 0;
+  flex: 0 0 240px;
+  width: 240px;
+  min-width: 240px;
+  border-right: 1px solid #1e2535;
+  height: 100%;
 }
 
 .brandText {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
   line-height: 1.1;
 }
 
 .brandName {
-  font-size: 1rem;
-  font-weight: 800;
+  font-family: 'Sole Sans Bold Italic', 'Sole Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.85rem;
+  font-weight: 700;
+  font-style: italic;
+  font-synthesis: none;
   color: #f1f5f9;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.01em;
   text-transform: uppercase;
 }
 
 .brandAccent {
   color: #ef4444;
+  font-family: 'Sole Sans Bold Italic', 'Sole Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: italic;
+  font-weight: 700;
+  font-synthesis: none;
 }
 
 .brandSub {
-  font-size: 0.65rem;
-  font-weight: 600;
+  font-family: 'Sole Sans Bold Italic', 'Sole Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.88rem;
+  font-weight: 700;
+  font-style: italic;
+  font-synthesis: none;
   color: #64748b;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
-.centerNav {
+.howToPlayBtn {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
   margin-left: 8px;
+  height: 36px;
+  padding: 0 12px;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 8px;
   cursor: pointer;
+  transition: border-color 0.15s, background-color 0.15s;
 }
 
-.navIcon {
-  font-size: 18px;
-  color: #64748b;
+.howToPlayBtn:hover {
+  border-color: #2d3a50;
+  background-color: #141a28;
+}
+
+.howToPlayLogo {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
 }
 
 .howToPlay {
   font-size: 0.78rem;
+  font-family: 'Sole Sans Bold Italic', 'Sole Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 700;
+  font-style: italic;
   color: #94a3b8;
   letter-spacing: 0.05em;
+}
+
+.howToPlayBtn:hover .howToPlay {
+  color: #cbd5e1;
 }
 
 .iconBtn {
@@ -128,14 +150,14 @@
 
 .inviteLabel {
   font-size: 0.72rem;
-  font-weight: 700;
+  font-weight: 800;
   color: #f1f5f9;
   letter-spacing: 0.04em;
 }
 
 .inviteSub {
   font-size: 0.62rem;
-  font-weight: 600;
+  font-weight: 700;
   color: #22c55e;
   letter-spacing: 0.04em;
 }
@@ -178,13 +200,13 @@
 
 .balanceAmount {
   font-size: 0.78rem;
-  font-weight: 700;
+  font-weight: 800;
   color: #f1f5f9;
 }
 
 .bonusAmount {
   font-size: 0.78rem;
-  font-weight: 700;
+  font-weight: 800;
   color: #f97316;
 }
 
@@ -197,9 +219,10 @@
   border-radius: 8px;
   padding: 8px 14px;
   font-size: 0.78rem;
-  font-weight: 800;
+  font-weight: 900;
   color: #ffffff;
   letter-spacing: 0.04em;
+  text-transform: uppercase;
   cursor: pointer;
   transition: background-color 0.15s;
 }
@@ -267,7 +290,7 @@
 
 .profileName {
   font-size: 0.8rem;
-  font-weight: 700;
+  font-weight: 800;
   color: #f1f5f9;
 }
 

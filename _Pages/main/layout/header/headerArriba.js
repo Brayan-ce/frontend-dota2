@@ -8,9 +8,6 @@ export function HeaderArriba() {
   return (
     <header className={styles.header}>
       <div className={styles.brand}>
-        <div className={styles.brandLogo}>
-          <Image src="/dota2-icon.png" alt="Dota 2" width={36} height={36} />
-        </div>
         <div className={styles.brandText}>
           <span className={styles.brandName}>
             UNA <span className={styles.brandAccent}>MÁS</span> Y YA
@@ -19,10 +16,10 @@ export function HeaderArriba() {
         </div>
       </div>
 
-      <div className={styles.centerNav}>
-        <ion-icon name="help-circle-outline" class={styles.navIcon} />
+      <button type="button" className={styles.howToPlayBtn} aria-label="Como jugar">
+        <Image src="/font/logo.png" alt="Logo Dota" width={18} height={18} className={styles.howToPlayLogo} />
         <span className={styles.howToPlay}>¿CÓMO JUGAR?</span>
-      </div>
+      </button>
 
       <div className={styles.right}>
         <ion-icon name="volume-medium-outline" class={styles.iconBtn} />

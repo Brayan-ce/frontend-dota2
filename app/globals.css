@@ -1,5 +1,81 @@
+@font-face {
+  font-family: 'Leonardo Sans';
+  src: url('/font/leonardo-sans/LeonardoRegular.woff2') format('woff2'),
+    url('/font/leonardo-sans/LeonardoRegular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Leonardo Sans';
+  src: url('/font/leonardo-sans/LeonardoBold.woff2') format('woff2'),
+    url('/font/leonardo-sans/LeonardoBold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Leonardo Sans';
+  src: url('/font/leonardo-sans/LeonardoBlack.woff2') format('woff2'),
+    url('/font/leonardo-sans/LeonardoBlack.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Leonardo Sans Heavy';
+  src: url('/font/leonardo-sans/LeonardoHeavy.woff2') format('woff2'),
+    url('/font/leonardo-sans/LeonardoHeavy.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Leonardo Sans Black Oblique';
+  src: url('/font/leonardo-sans/LeonardoBlackOblique.woff2') format('woff2'),
+    url('/font/leonardo-sans/LeonardoBlackOblique.woff') format('woff');
+  font-weight: 900;
+  font-style: oblique;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LeonardoSansBlackOblique';
+  src: url('/font/leonardo-sans/LeonardoBlackOblique.woff2') format('woff2'),
+    url('/font/leonardo-sans/LeonardoBlackOblique.woff') format('woff');
+  font-weight: 900;
+  font-style: oblique;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Leonardo Sans';
+  src: url('/font/leonardo-sans/LeonardoExtraboldOblique.woff2') format('woff2'),
+    url('/font/leonardo-sans/LeonardoExtraboldOblique.woff') format('woff');
+  font-weight: 800;
+  font-style: oblique;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sole Sans Bold Italic';
+  src: url('/font/sole-sans/SoleSans-BoldItalic.woff2') format('woff2'),
+    url('/font/sole-sans/SoleSans-BoldItalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: 'Leonardo Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

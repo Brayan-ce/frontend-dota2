@@ -1,0 +1,240 @@
+@font-face {
+    font-family: 'Leonardo Sans Ultralight Oblique';
+    src: url('LeonardoUltralightOblique.eot');
+    src: local('Leonardo Sans Ultralight Oblique'), local('LeonardoUltralightOblique'),
+        url('LeonardoUltralightOblique.eot?#iefix') format('embedded-opentype'),
+        url('LeonardoUltralightOblique.woff2') format('woff2'),
+        url('LeonardoUltralightOblique.woff') format('woff'),
+        url('LeonardoUltralightOblique.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Leonardo Sans';
+    src: url('LeonardoBold.eot');
+    src: local('Leonardo Sans Bold'), local('LeonardoBold'),
+        url('LeonardoBold.eot?#iefix') format('embedded-opentype'),
+        url('LeonardoBold.woff2') format('woff2'),
+        url('LeonardoBold.woff') format('woff'),
+        url('LeonardoBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Leonardo Sans';
+    src: url('LeonardoSemibold.eot');
+    src: local('Leonardo Sans Semibold'), local('LeonardoSemibold'),
+        url('LeonardoSemibold.eot?#iefix') format('embedded-opentype'),
+        url('LeonardoSemibold.woff2') format('woff2'),
+        url('LeonardoSemibold.woff') format('woff'),
+        url('LeonardoSemibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Leonardo Sans Semibold Oblique';
+    src: url('LeonardoSemiboldOblique.eot');
+    src: local('Leonardo Sans Semibold Oblique'), local('LeonardoSemiboldOblique'),
+        url('LeonardoSemiboldOblique.eot?#iefix') format('embedded-opentype'),
+        url('LeonardoSemiboldOblique.woff2') format('woff2'),
+        url('LeonardoSemiboldOblique.woff') format('woff'),
+        url('LeonardoSemiboldOblique.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Leonardo Sans Oblique';
+    src: url('LeonardoRegularOblique.eot');
+    src: local('Leonardo Sans Oblique'), local('LeonardoRegularOblique'),
+        url('LeonardoRegularOblique.eot?#iefix') format('embedded-opentype'),
+        url('LeonardoRegularOblique.woff2') format('woff2'),
+        url('LeonardoRegularOblique.woff') format('woff'),
+        url('LeonardoRegularOblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Leonardo Sans';
+    src: url('LeonardoHeavy.eot');
+    src: local('Leonardo Sans Heavy'), local('LeonardoHeavy'),
+        url('LeonardoHeavy.eot?#iefix') format('embedded-opentype'),
+        url('LeonardoHeavy.woff2') format('woff2'),
+        url('LeonardoHeavy.woff') format('woff'),
+        url('LeonardoHeavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Leonardo Sans Thin Oblique';
+    src: url('LeonardoThinOblique.eot');
+    src: local('Leonardo Sans Thin Oblique'), local('LeonardoThinOblique'),
+        url('LeonardoThinOblique.eot?#iefix') format('embedded-opentype'),
+        url('LeonardoThinOblique.woff2') format('woff2'),
+        url('LeonardoThinOblique.woff') format('woff'),
+        url('LeonardoThinOblique.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Leonardo Sans Extrabold Oblique';
+    src: url('LeonardoExtraboldOblique.eot');
+    src: local('Leonardo Sans Extrabold Oblique'), local('LeonardoExtraboldOblique'),
+        url('LeonardoExtraboldOblique.eot?#iefix') format('embedded-opentype'),
+        url('LeonardoExtraboldOblique.woff2') format('woff2'),
+        url('LeonardoExtraboldOblique.woff') format('woff'),
+        url('LeonardoExtraboldOblique.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Leonardo Sans Heavy Oblique';
+    src: url('LeonardoHeavyOblique.eot');
+    src: local('Leonardo Sans Heavy Oblique'), local('LeonardoHeavyOblique'),
+        url('LeonardoHeavyOblique.eot?#iefix') format('embedded-opentype'),
+        url('LeonardoHeavyOblique.woff2') format('woff2'),
+        url('LeonardoHeavyOblique.woff') format('woff'),
+        url('LeonardoHeavyOblique.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Leonardo Sans';
+    src: url('LeonardoUltralight.eot');
+    src: local('Leonardo Sans Ultralight'), local('LeonardoUltralight'),
+        url('LeonardoUltralight.eot?#iefix') format('embedded-opentype'),
+        url('LeonardoUltralight.woff2') format('woff2'),
+        url('LeonardoUltralight.woff') format('woff'),
+        url('LeonardoUltralight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Leonardo Sans';
+    src: url('LeonardoExtrabold.eot');
+    src: local('Leonardo Sans Extrabold'), local('LeonardoExtrabold'),
+        url('LeonardoExtrabold.eot?#iefix') format('embedded-opentype'),
+        url('LeonardoExtrabold.woff2') format('woff2'),
+        url('LeonardoExtrabold.woff') format('woff'),
+        url('LeonardoExtrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Leonardo Sans';
+    src: url('LeonardoMedium.eot');
+    src: local('Leonardo Sans Medium'), local('LeonardoMedium'),
+        url('LeonardoMedium.eot?#iefix') format('embedded-opentype'),
+        url('LeonardoMedium.woff2') format('woff2'),
+        url('LeonardoMedium.woff') format('woff'),
+        url('LeonardoMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Leonardo Sans Medium Oblique';
+    src: url('LeonardoMediumOblique.eot');
+    src: local('Leonardo Sans Medium Oblique'), local('LeonardoMediumOblique'),
+        url('LeonardoMediumOblique.eot?#iefix') format('embedded-opentype'),
+        url('LeonardoMediumOblique.woff2') format('woff2'),
+        url('LeonardoMediumOblique.woff') format('woff'),
+        url('LeonardoMediumOblique.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Leonardo Sans';
+    src: url('LeonardoBlack.eot');
+    src: local('Leonardo Sans Black'), local('LeonardoBlack'),
+        url('LeonardoBlack.eot?#iefix') format('embedded-opentype'),
+        url('LeonardoBlack.woff2') format('woff2'),
+        url('LeonardoBlack.woff') format('woff'),
+        url('LeonardoBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Leonardo Sans';
+    src: url('LeonardoRegular.eot');
+    src: local('Leonardo Sans'), local('LeonardoRegular'),
+        url('LeonardoRegular.eot?#iefix') format('embedded-opentype'),
+        url('LeonardoRegular.woff2') format('woff2'),
+        url('LeonardoRegular.woff') format('woff'),
+        url('LeonardoRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Leonardo Sans Bold Oblique';
+    src: url('LeonardoBoldOblique.eot');
+    src: local('Leonardo Sans Bold Oblique'), local('LeonardoBoldOblique'),
+        url('LeonardoBoldOblique.eot?#iefix') format('embedded-opentype'),
+        url('LeonardoBoldOblique.woff2') format('woff2'),
+        url('LeonardoBoldOblique.woff') format('woff'),
+        url('LeonardoBoldOblique.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Leonardo Sans';
+    src: url('LeonardoThin.eot');
+    src: local('Leonardo Sans Thin'), local('LeonardoThin'),
+        url('LeonardoThin.eot?#iefix') format('embedded-opentype'),
+        url('LeonardoThin.woff2') format('woff2'),
+        url('LeonardoThin.woff') format('woff'),
+        url('LeonardoThin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Leonardo Sans Black Oblique';
+    src: url('LeonardoBlackOblique.eot');
+    src: local('Leonardo Sans Black Oblique'), local('LeonardoBlackOblique'),
+        url('LeonardoBlackOblique.eot?#iefix') format('embedded-opentype'),
+        url('LeonardoBlackOblique.woff2') format('woff2'),
+        url('LeonardoBlackOblique.woff') format('woff'),
+        url('LeonardoBlackOblique.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Leonardo Sans';
+    src: url('LeonardoLight.eot');
+    src: local('Leonardo Sans Light'), local('LeonardoLight'),
+        url('LeonardoLight.eot?#iefix') format('embedded-opentype'),
+        url('LeonardoLight.woff2') format('woff2'),
+        url('LeonardoLight.woff') format('woff'),
+        url('LeonardoLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Leonardo Sans Light Oblique';
+    src: url('LeonardoLightOblique.eot');
+    src: local('Leonardo Sans Light Oblique'), local('LeonardoLightOblique'),
+        url('LeonardoLightOblique.eot?#iefix') format('embedded-opentype'),
+        url('LeonardoLightOblique.woff2') format('woff2'),
+        url('LeonardoLightOblique.woff') format('woff'),
+        url('LeonardoLightOblique.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
