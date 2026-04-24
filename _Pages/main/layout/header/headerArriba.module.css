@@ -93,6 +93,7 @@
   font-family: 'Sole Sans Bold Italic', 'Sole Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 700;
   font-style: italic;
+  font-synthesis: none;
   color: #94a3b8;
   letter-spacing: 0.05em;
 }
@@ -149,15 +150,21 @@
 }
 
 .inviteLabel {
+  font-family: 'Sole Sans Bold Italic', 'Sole Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 0.72rem;
-  font-weight: 800;
+  font-weight: 700;
+  font-style: italic;
+  font-synthesis: none;
   color: #f1f5f9;
   letter-spacing: 0.04em;
 }
 
 .inviteSub {
+  font-family: 'Sole Sans Bold Italic', 'Sole Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 0.62rem;
   font-weight: 700;
+  font-style: italic;
+  font-synthesis: none;
   color: #22c55e;
   letter-spacing: 0.04em;
 }
@@ -199,14 +206,20 @@
 }
 
 .balanceAmount {
+  font-family: 'Sole Sans Bold Italic', 'Sole Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 0.78rem;
-  font-weight: 800;
+  font-weight: 700;
+  font-style: italic;
+  font-synthesis: none;
   color: #f1f5f9;
 }
 
 .bonusAmount {
+  font-family: 'Sole Sans Bold Italic', 'Sole Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 0.78rem;
-  font-weight: 800;
+  font-weight: 700;
+  font-style: italic;
+  font-synthesis: none;
   color: #f97316;
 }
 
@@ -218,8 +231,11 @@
   border: none;
   border-radius: 8px;
   padding: 8px 14px;
+  font-family: 'Sole Sans Bold Italic', 'Sole Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 0.78rem;
-  font-weight: 900;
+  font-weight: 700;
+  font-style: italic;
+  font-synthesis: none;
   color: #ffffff;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -246,14 +262,105 @@
   cursor: pointer;
   transition: border-color 0.15s;
   color: #64748b;
+  appearance: none;
 }
 
 .profile:hover {
   border-color: #ef4444;
 }
 
+.profileOpen {
+  border-color: #ef4444;
+  background-color: #252e42;
+}
+
 .profile ion-icon {
   font-size: 14px;
+}
+
+.profileChevron {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border: 1px solid #3b475f;
+  border-radius: 999px;
+  background-color: #141a28;
+  color: #cbd5e1;
+  flex-shrink: 0;
+  transition: border-color 0.15s, background-color 0.15s, color 0.15s;
+}
+
+.profileChevronOpen {
+  border-color: #ef4444;
+  background-color: rgba(239, 68, 68, 0.12);
+  color: #fca5a5;
+}
+
+.profile:hover .profileChevron {
+  border-color: #ef4444;
+  color: #f8fafc;
+}
+
+.profileWrapper {
+  position: relative;
+}
+
+.profileMenu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  min-width: 210px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background-color: #121826;
+  border: 1px solid #2d3a50;
+  border-radius: 12px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.45);
+}
+
+.profileMenuItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background-color: transparent;
+  color: #dbe4f0;
+  cursor: pointer;
+  text-align: left;
+  font-family: 'Sole Sans Bold Italic', 'Sole Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  font-style: italic;
+  font-synthesis: none;
+  transition: border-color 0.15s, background-color 0.15s, color 0.15s;
+}
+
+.profileMenuItem:hover {
+  border-color: #2d3a50;
+  background-color: #1c2333;
+  color: #f8fafc;
+}
+
+.profileMenuItem ion-icon {
+  font-size: 16px;
+  color: inherit;
+}
+
+.profileMenuDanger {
+  color: #f87171;
+}
+
+.profileMenuDanger:hover {
+  border-color: #7f1d1d;
+  background-color: rgba(127, 29, 29, 0.22);
+  color: #fca5a5;
 }
 
 .profileAvatar {
@@ -289,14 +396,20 @@
 }
 
 .profileName {
+  font-family: 'Sole Sans Bold Italic', 'Sole Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 0.8rem;
-  font-weight: 800;
+  font-weight: 700;
+  font-style: italic;
+  font-synthesis: none;
   color: #f1f5f9;
 }
 
 .profileMmr {
+  font-family: 'Sole Sans Bold Italic', 'Sole Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 0.65rem;
   font-weight: 600;
+  font-style: italic;
+  font-synthesis: none;
   color: #64748b;
 }
 
