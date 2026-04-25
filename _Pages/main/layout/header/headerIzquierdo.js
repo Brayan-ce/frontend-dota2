@@ -26,13 +26,6 @@ const footerNav = [
 export function HeaderIzquierdo() {
   return (
     <aside className={styles.sidebar}>
-      <div className={styles.gameHeader}>
-        <div className={styles.gameIcon}>
-          <Image src="/dota2-icon.png" alt="Dota 2" width={28} height={28} />
-        </div>
-        <span className={styles.gameLabel}>DOTA 2</span>
-      </div>
-
       <nav className={styles.mainNav} aria-label="Navegación lateral principal">
         {mainNav.map((item) => (
           <Link
@@ -40,7 +33,7 @@ export function HeaderIzquierdo() {
             href={item.href}
             className={`${styles.navLink} ${item.active ? styles.navLinkActive : ''}`}
           >
-            <ion-icon name={item.icon} class={styles.navIcon} />
+            <i className={`fa-solid ${iconMap[item.icon]} ${styles.navIcon}`} aria-hidden="true" />
             <span className={styles.navLabel}>{item.label}</span>
             {item.badge && <span className={styles.badge}>{item.badge}</span>}
           </Link>
@@ -52,14 +45,14 @@ export function HeaderIzquierdo() {
       <nav className={styles.subNav} aria-label="Navegación lateral secundaria">
         {bottomNav.map((item) => (
           <Link key={item.label} href={item.href} className={styles.navLink}>
-            <ion-icon name={item.icon} class={styles.navIcon} />
+            <i className={`fa-solid ${iconMap[item.icon]} ${styles.navIcon}`} aria-hidden="true" />
             <span className={styles.navLabel}>{item.label}</span>
           </Link>
         ))}
       </nav>
 
       <div className={styles.discordBanner}>
-        <ion-icon name="logo-discord" class={styles.discordIcon} />
+        <i className={`fa-brands fa-discord ${styles.discordIcon}`} aria-hidden="true" />
         <div className={styles.discordText}>
           <span className={styles.discordTitle}>ÚNETE A NUESTRO</span>
           <span className={styles.discordBrand}>Discord</span>
@@ -72,7 +65,7 @@ export function HeaderIzquierdo() {
       <nav className={styles.footerNav} aria-label="Navegación lateral inferior">
         {footerNav.map((item) => (
           <Link key={item.label} href={item.href} className={styles.footerLink}>
-            <ion-icon name={item.icon} class={styles.navIcon} />
+            <i className={`fa-solid ${iconMap[item.icon]} ${styles.navIcon}`} aria-hidden="true" />
             <span className={styles.navLabel}>{item.label}</span>
           </Link>
         ))}
@@ -80,3 +73,16 @@ export function HeaderIzquierdo() {
     </aside>
   );
 }
+
+const iconMap = {
+  'grid-outline': 'fa-table-cells-large',
+  'flash-outline': 'fa-bolt',
+  'trophy-outline': 'fa-trophy',
+  'bar-chart-outline': 'fa-chart-column',
+  'ban-outline': 'fa-ban',
+  'book-outline': 'fa-book',
+  'gift-outline': 'fa-gift',
+  'shield-outline': 'fa-shield-halved',
+  'help-circle-outline': 'fa-circle-question',
+  'chatbubble-ellipses-outline': 'fa-comments',
+};

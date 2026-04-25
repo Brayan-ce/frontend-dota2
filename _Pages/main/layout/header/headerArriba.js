@@ -48,10 +48,10 @@ export function HeaderArriba() {
       </button>
 
       <div className={styles.right}>
-        <ion-icon name="volume-medium-outline" class={styles.iconBtn} />
+        <i className={`fa-solid fa-volume-high ${styles.iconBtn}`} aria-hidden="true" />
 
         <Link href="#" className={styles.inviteBtn}>
-          <ion-icon name="people-outline" />
+          <i className="fa-solid fa-user-group" aria-hidden="true" />
           <div className={styles.inviteText}>
             <span className={styles.inviteLabel}>INVITA AMIGOS</span>
             <span className={styles.inviteSub}>GANA BONOS</span>
@@ -59,20 +59,20 @@ export function HeaderArriba() {
         </Link>
 
         <div className={styles.balance}>
-          <ion-icon name="cash-outline" class={styles.balanceIcon} />
+          <i className={`fa-solid fa-coins ${styles.balanceIcon}`} aria-hidden="true" />
           <span className={styles.balanceAmount}>S/ 0.00 PEN</span>
-          <ion-icon name="eye-outline" class={styles.eyeIcon} />
+          <i className={`fa-regular fa-eye ${styles.eyeIcon}`} aria-hidden="true" />
         </div>
 
         <div className={styles.bonus}>
-          <ion-icon name="gift-outline" class={styles.bonusIcon} />
+          <i className={`fa-solid fa-gift ${styles.bonusIcon}`} aria-hidden="true" />
           <span className={styles.bonusAmount}>S/ 10.00 PEN</span>
-          <ion-icon name="eye-outline" class={styles.eyeIcon} />
+          <i className={`fa-regular fa-eye ${styles.eyeIcon}`} aria-hidden="true" />
         </div>
 
         <button className={styles.recargarBtn}>
           RECARGAR
-          <ion-icon name="add-outline" />
+          <i className="fa-solid fa-plus" aria-hidden="true" />
         </button>
 
         <div className={styles.profileWrapper} ref={profileRef}>
@@ -85,7 +85,7 @@ export function HeaderArriba() {
             aria-label="Abrir menu de perfil"
           >
             <div className={styles.profileAvatar}>
-              <Image src="/hero-avatar.png" alt="ShadowFiend" width={36} height={36} />
+              <Image src="/font/logo.png" alt="ShadowFiend" width={36} height={36} />
               <span className={styles.profileLevel}>7</span>
             </div>
             <div className={styles.profileInfo}>
@@ -93,22 +93,22 @@ export function HeaderArriba() {
               <span className={styles.profileMmr}>MMR 6120</span>
             </div>
             <span className={`${styles.profileChevron} ${isProfileOpen ? styles.profileChevronOpen : ''}`}>
-              <ion-icon name={isProfileOpen ? 'chevron-up-outline' : 'chevron-down-outline'} />
+              <i className={`fa-solid ${isProfileOpen ? 'fa-chevron-up' : 'fa-chevron-down'}`} aria-hidden="true" />
             </span>
           </button>
 
           {isProfileOpen ? (
             <div className={styles.profileMenu} role="menu" aria-label="Menu de perfil">
               <button type="button" className={styles.profileMenuItem} role="menuitem">
-                <ion-icon name="person-circle-outline" />
+                <i className="fa-regular fa-circle-user" aria-hidden="true" />
                 <span>Mi perfil</span>
               </button>
               <button type="button" className={styles.profileMenuItem} role="menuitem">
-                <ion-icon name="wallet-outline" />
+                <i className="fa-solid fa-wallet" aria-hidden="true" />
                 <span>Mi billetera</span>
               </button>
               <button type="button" className={styles.profileMenuItem} role="menuitem">
-                <ion-icon name="settings-outline" />
+                <i className="fa-solid fa-gear" aria-hidden="true" />
                 <span>Configuracion</span>
               </button>
               <Link
@@ -117,7 +117,7 @@ export function HeaderArriba() {
                 role="menuitem"
                 onClick={() => setIsProfileOpen(false)}
               >
-                <ion-icon name="log-out-outline" />
+                <i className="fa-solid fa-right-from-bracket" aria-hidden="true" />
                 <span>Cerrar sesion</span>
               </Link>
             </div>
